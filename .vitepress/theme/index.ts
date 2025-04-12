@@ -4,6 +4,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import FeatureCard from './components/FeatureCard.vue'
+import UseCaseCard from './components/UseCaseCard.vue'
+import UseStepCard from './components/UseStepCard.vue'
 
 export default {
   extends: DefaultTheme,
@@ -13,6 +15,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('UseStepCard', UseStepCard)
     app.component('FeatureCard', FeatureCard)
+    app.component('UseCaseCard', UseCaseCard)
   }
 } satisfies Theme

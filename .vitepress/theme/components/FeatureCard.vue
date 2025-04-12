@@ -23,7 +23,6 @@ defineProps({
 
 <style scoped>
 .feature-card {
-  background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider);
   border-radius: 0.75rem;
   padding: 1.5rem;

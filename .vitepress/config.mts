@@ -8,11 +8,11 @@ export default defineConfig({
     logo: "/logo.svg",
     nav: [
       { text: "首页", link: "/" },
-      { text: "文档", link: "/docs/" },
       { text: "功能", link: "/#features" },
       { text: "工作原理", link: "/#how-it-works" },
       { text: "使用场景", link: "/#use-cases" },
-      { text: "下载", link: "/#download" },
+      { text: "下载链接", link: "/#download" },
+      { text: "帮助文档", link: "/docs/" },
     ],
     sidebar: {
       "/docs/": [

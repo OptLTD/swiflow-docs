@@ -95,17 +95,17 @@ hero:
     <h2 class="section-title">简单三步，实现你的想法</h2>
     <p class="section-description">Swiflow如何将你的对话转化为实用功能</p>
     <div class="steps-container">
-      <StepCard 
+      <UseStepCard 
         number="1" 
         title="表达需求" 
         description="通过自然对话告诉Swiflow你需要什么功能或工具。" 
       />
-      <StepCard 
+      <UseStepCard 
         number="2" 
         title="AI理解与创建" 
         description="Swiflow的AI引擎理解你的需求，并快速生成相应的功能。" 
       />
-      <StepCard 
+      <UseStepCard 
         number="3" 
         title="立即使用" 
         description="生成的功能立即可用，无需额外安装或配置。" 

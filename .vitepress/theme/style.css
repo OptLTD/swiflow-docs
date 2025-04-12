@@ -137,6 +137,33 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.VPHome{
+  margin-bottom: 0 !important;
+}
+.VPHome .container{
+  width: 100%;
+  padding: 0 0 !important;
+  max-width: unset!important;
+}
+.VPFooter {
+  padding: 15px !important;
+}
+.VPFooter .container{
+  display: flex;
+  margin: 0 !important;
+  max-width: unset !important;
+  justify-content: space-between;
+}
+
+.VPHero{
+  background-color: var(--vp-c-bg-soft);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.VPHero>.container{
+  margin-top: -50px!important;
+}
 
 .VPHero .image-bg {
   z-index: -1;
@@ -162,6 +189,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* min-height: calc(100vh - var(--vp-nav-height)) ; */
 }
 
 .section-title {
@@ -169,6 +197,8 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
+  margin: 1rem!important;
+  border-top: 0 !important;
 }
 
 .section-description {
