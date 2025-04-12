@@ -6,7 +6,7 @@ hero:
   text: 聊天即功能，想法即实现
   tagline: 通过简单对话表达需求，Swiflow即刻生成可用功能，就像这些功能一直都是应用的一部分。
   image:
-    src: /hero-image.png
+    src: /hero-image.svg
     alt: Swiflow应用截图
   actions:
     - theme: brand
@@ -15,16 +15,16 @@ hero:
     - theme: alt
       text: 了解更多
       link: /#features
+  theme:
+    name: bg-gradient-to-r text-white
+    text: text-3xl font-bold
+    tagline: text-xl text-blue-100
 ---
 
 <div class="feature-section" id="features">
   <div class="feature-container">
-    <div style="display: inline-block; background-color: var(--vp-c-bg-soft); border-radius: 0.5rem; padding: 0.25rem 0.75rem; font-size: 0.875rem; margin-bottom: 1rem;">
-      无限可能
-    </div>
     <h2 class="section-title">对话生成功能，即时可用</h2>
     <p class="section-description">Swiflow通过自然对话理解你的需求，并立即创建可用的功能。</p>
-    
     <div class="feature-grid">
       <FeatureCard 
         title="自然对话" 
@@ -35,7 +35,6 @@ hero:
           </svg>
         </template>
       </FeatureCard>
-      
       <FeatureCard 
         title="即时生成" 
         description="几秒钟内生成功能，无需等待开发或更新。">
@@ -45,7 +44,6 @@ hero:
           </svg>
         </template>
       </FeatureCard>
-      
       <FeatureCard 
         title="无缝集成" 
         description="生成的功能与应用完美融合，就像它一直都是应用的一部分。">
@@ -55,7 +53,6 @@ hero:
           </svg>
         </template>
       </FeatureCard>
-      
       <FeatureCard 
         title="个性化定制" 
         description="根据你的具体需求定制功能，而不是使用通用解决方案。">
@@ -68,7 +65,6 @@ hero:
           </svg>
         </template>
       </FeatureCard>
-      
       <FeatureCard 
         title="持续学习" 
         description="系统会记住你的偏好，随着使用变得更加智能和个性化。">
@@ -81,7 +77,6 @@ hero:
           </svg>
         </template>
       </FeatureCard>
-      
       <FeatureCard 
         title="创意激发" 
         description="提供建议和灵感，帮助你发现新的可能性和解决方案。">
@@ -97,25 +92,19 @@ hero:
 
 <div class="feature-section alt" id="how-it-works">
   <div class="feature-container">
-    <div style="display: inline-block; background-color: var(--vp-c-bg); border-radius: 0.5rem; padding: 0.25rem 0.75rem; font-size: 0.875rem; margin-bottom: 1rem;">
-      工作原理
-    </div>
     <h2 class="section-title">简单三步，实现你的想法</h2>
     <p class="section-description">Swiflow如何将你的对话转化为实用功能</p>
-    
     <div class="steps-container">
       <StepCard 
         number="1" 
         title="表达需求" 
         description="通过自然对话告诉Swiflow你需要什么功能或工具。" 
       />
-      
       <StepCard 
         number="2" 
         title="AI理解与创建" 
         description="Swiflow的AI引擎理解你的需求，并快速生成相应的功能。" 
       />
-      
       <StepCard 
         number="3" 
         title="立即使用" 
@@ -127,12 +116,8 @@ hero:
 
 <div class="feature-section" id="use-cases">
   <div class="feature-container">
-    <div style="display: inline-block; background-color: var(--vp-c-bg-soft); border-radius: 0.5rem; padding: 0.25rem 0.75rem; font-size: 0.875rem; margin-bottom: 1rem;">
-      使用场景
-    </div>
     <h2 class="section-title">Swiflow能做什么？</h2>
     <p class="section-description">探索Swiflow如何满足各种需求的实际例子</p>
-    
     <div class="use-case-grid">
       <UseCaseCard 
         query="我需要一个每周计划表，可以帮我安排工作和个人任务" 
@@ -153,7 +138,6 @@ hero:
           <div style="height: 1.5rem; background-color: rgba(62, 175, 124, 0.1); border-radius: 0.25rem;"></div>
         </div>
       </UseCaseCard>
-      
       <UseCaseCard 
         query="帮我创建一个工具，可以跟踪我的健身进度和饮食" 
         title="健康生活追踪器" 
@@ -170,7 +154,6 @@ hero:
           <div>卡路里: 1,842</div>
         </div>
       </UseCaseCard>
-      
       <UseCaseCard 
         query="我想要一个工具来管理我的项目和团队任务" 
         title="项目管理助手" 
@@ -197,7 +180,6 @@ hero:
           </div>
         </div>
       </UseCaseCard>
-      
       <UseCaseCard 
         query="我需要一个简单的工具来学习新语言的单词" 
         title="语言学习卡片" 
@@ -224,7 +206,6 @@ hero:
   <div class="feature-container">
     <h2 class="section-title">立即开始使用Swiflow</h2>
     <p class="section-description">下载应用，开始通过对话创建你需要的功能</p>
-    
     <div class="download-buttons">
       <a href="#" class="vp-button medium brand">iOS版本</a>
       <a href="#" class="vp-button medium brand">Android版本</a>
@@ -233,6 +214,3 @@ hero:
     </div>
   </div>
 </div>
-\`\`\`
-
-创建一个简单的logo文件：
