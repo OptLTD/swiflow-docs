@@ -201,10 +201,6 @@ hero:
   <div class="feature-container">
     <h2 class="section-title">立即开始使用Swiflow</h2>
     <p class="section-description">下载应用，开始通过对话创建你需要的功能</p>
-    <div class="download-buttons">
-      <a href="#" class="vp-button medium brand">macOS版</a>
-      <a href="#" class="vp-button medium brand">Windows版</a>
-      <a href="#" class="vp-button medium brand">网页版</a>
-    </div>
+    <DownloadLinks owner="OptLTD" repo="swiflow-docs"/>
   </div>
 </div>

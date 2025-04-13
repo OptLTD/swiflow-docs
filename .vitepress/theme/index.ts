@@ -6,6 +6,7 @@ import DefaultTheme from 'vitepress/theme'
 import FeatureCard from './components/FeatureCard.vue'
 import UseCaseCard from './components/UseCaseCard.vue'
 import UseStepCard from './components/UseStepCard.vue'
+import DownloadLinks from './components/DownloadLinks.vue'
 
 export default {
   extends: DefaultTheme,
@@ -18,5 +19,6 @@ export default {
     app.component('UseStepCard', UseStepCard)
     app.component('FeatureCard', FeatureCard)
     app.component('UseCaseCard', UseCaseCard)
+    app.component('DownloadLinks', DownloadLinks)
   }
 } satisfies Theme
