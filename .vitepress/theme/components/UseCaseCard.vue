@@ -23,7 +23,9 @@ defineProps({
     <div class="content">
       <h3 class="title">{{ title }}</h3>
       <p class="description">{{ description }}</p>
-      <slot name="default"></slot>
+      <div class="detail">
+        <slot name="default"></slot>
+      </div>
     </div>
   </div>
 </template>
@@ -53,23 +55,22 @@ defineProps({
 }
 .header>.query{
   padding: 0;
-  margin: 15px 25px;
+  margin: 15px 1rem;
   font-size: 0.85rem;
 }
 .content {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 1.5rem;
-  gap: 1.5rem;
+  padding: 1rem;
+  width: -webkit-fill-available;
 }
 
 .title {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  font-weight: 600;
   color: var(--vp-c-text-1);
-  margin: 0;
+  margin: 0 0;
 }
 
 .description {
@@ -77,5 +78,12 @@ defineProps({
   font-size: 0.875rem;
   line-height: 1.5rem;
   margin: 0;
+}
+.detail{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  --bg-opacity: 0.9;
+  background-color: var(--vp-c-bg-soft);
 }
 </style>

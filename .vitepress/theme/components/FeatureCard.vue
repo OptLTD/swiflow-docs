@@ -44,15 +44,14 @@ defineProps({
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--vp-c-brand-soft);
   border-radius: 9999px;
   margin-bottom: 1rem;
+  background-color: var(--vp-c-bg-soft);
 }
 
 .title {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.75rem;
-  font-weight: 600;
   color: var(--vp-c-text-1);
   margin-bottom: 0.5rem;
 }
@@ -61,5 +60,10 @@ defineProps({
   color: var(--vp-c-text-2);
   font-size: 0.875rem;
   line-height: 1.25rem;
+  margin-bottom: 0px;
 }
+.title,.description{
+  margin-top: 0px!important;
+}
+
 </style>

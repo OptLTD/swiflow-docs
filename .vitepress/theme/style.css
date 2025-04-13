@@ -193,12 +193,13 @@
 }
 
 .section-title {
-  font-size: 2.25rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1.5rem;
   margin: 1rem!important;
   border-top: 0 !important;
+  padding-top: 0 !important;
+  font-size: 2.25rem!important;
 }
 
 .section-description {
@@ -206,7 +207,7 @@
   text-align: center;
   color: var(--vp-c-text-2);
   max-width: 768px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 3rem!important;
 }
 
 .feature-grid {
@@ -362,7 +363,6 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 2rem;
 }
 
 @media (min-width: 640px) {
