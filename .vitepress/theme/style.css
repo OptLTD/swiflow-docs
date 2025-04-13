@@ -277,7 +277,8 @@
 .steps-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+  width: -webkit-fill-available;
 }
 
 @media (min-width: 768px) {
