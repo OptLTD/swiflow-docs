@@ -201,6 +201,6 @@ hero:
   <div class="feature-container">
     <h2 class="section-title">立即开始使用Swiflow</h2>
     <p class="section-description">下载应用，开始通过对话创建你需要的功能</p>
-    <DownloadLinks owner="OptLTD" repo="swiflow-docs"/>
+    <DownloadLinks />
   </div>
 </div>

@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { GIT_REPO_NAME } from './consts.js'
+import { GIT_REPO_OWNER } from './consts.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,6 +16,7 @@ export default defineConfig({
       { text: "下载链接", link: "/#download" },
       { text: "帮助文档", link: "/docs/" },
     ],
+
     sidebar: {
       "/docs/": [
         {
@@ -45,7 +48,7 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/swiflow/swiflow-app" }],
+    socialLinks: [{ icon: "github", link: `https://github.com/${GIT_REPO_OWNER}/${GIT_REPO_NAME}"` }],
     footer: {
       message: "© 2024 Swiflow. 保留所有权利。",
       copyright: "隐私政策 | 使用条款 | 联系我们",
@@ -70,7 +73,7 @@ export default defineConfig({
     returnToTopLabel: "返回顶部",
   },
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", href: "/logo.svg" }],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     ["meta", { name: "apple-mobile-web-app-status-bar-style", content: "black" }],

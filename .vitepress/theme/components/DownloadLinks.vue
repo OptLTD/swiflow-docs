@@ -1,6 +1,7 @@
-// 假设你在 /components/GitHubReleases.vue 中创建组件
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { GIT_REPO_NAME } from '../../consts.ts'
+import { GIT_REPO_OWNER } from '../../consts.ts'
 
 const props = defineProps({
   owner: String,
@@ -11,7 +12,9 @@ const winX86Addr  = ref('')
 const macAarchAddr = ref('')
 const macInterAddr = ref('')
 const releaseAddr = computed(() => {
-  return `https://api.github.com/repos/${props.owner}/${props.repo}/releases`
+  const repoName = props.name || GIT_REPO_NAME
+  const repoOwner = props.owner || GIT_REPO_OWNER
+  return `https://api.github.com/repos/${repoOwner}/${repoName}/releases`
 })
 
 onMounted(async () => {
