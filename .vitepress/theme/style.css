@@ -44,6 +44,8 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --vp-nav-logo-height: 45px!important;
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -137,6 +139,9 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.VPNavBar .title{
+  font-size: 1.5rem!important;
+}
 .VPHome{
   margin-bottom: 0 !important;
 }
@@ -226,6 +231,12 @@
 @media (min-width: 1024px) {
   .feature-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .name, .text {
+    max-width: unset!important;
+  }
+  .VPHero.has-image .main{
+    max-width: 720px!important;
   }
 }
 

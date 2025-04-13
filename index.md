@@ -2,11 +2,10 @@
 layout: home
 
 hero:
-  name: Swiflow
   text: 聊天即功能，想法即实现
-  tagline: 通过简单对话表达需求，Swiflow即刻生成可用功能，就像这些功能一直都是应用的一部分。
+  tagline: 通过简单对话表达需求，Swiflow 即刻生成可用功能，就像这些功能一直都是应用的一部分。
   image:
-    src: /hero-image.svg
+    src: /hero-image.jpg
     alt: Swiflow应用截图
   actions:
     - theme: brand
@@ -15,10 +14,6 @@ hero:
     - theme: alt
       text: 了解更多
       link: /#features
-  theme:
-    name: bg-gradient-to-r text-white
-    text: text-3xl font-bold
-    tagline: text-xl text-blue-100
 ---
 
 <div class="feature-section" id="features">
