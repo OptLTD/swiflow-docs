@@ -44,9 +44,9 @@ defineProps({
 }
 
 .usecase-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--vp-shadow-2);
-  border-color: var(--vp-c-brand);
+  transform: translateY(-5px);
+  box-shadow: var(--vp-shadow-5);
+  border-color: var(--vp-c-bg-soft);
 }
 
 .header{
