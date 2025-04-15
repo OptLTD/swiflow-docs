@@ -204,7 +204,6 @@
   margin: 1rem!important;
   border-top: 0 !important;
   padding-top: 0 !important;
-  font-size: 2.25rem!important;
 }
 
 .section-description {
@@ -222,9 +221,27 @@
   width: 100%;
 }
 
+@media (max-width: 640px) {
+  .section-title {
+    font-size: 1.75rem !important;
+  }
+  .VPHero .main{
+    margin-top: 100px;
+  }
+  .VPHero .heading>.text{
+    font-size: 1.85rem !important;
+  }
+  .VPFooter .container{
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 640px) {
   .feature-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .section-title {
+    font-size: 2.25rem!important;
   }
 }
 
@@ -236,7 +253,7 @@
     max-width: unset!important;
   }
   .VPHero.has-image .main{
-    max-width: 720px!important;
+    /* max-width: 720px!important; */
   }
 }
 
