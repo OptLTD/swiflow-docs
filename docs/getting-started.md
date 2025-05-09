@@ -11,20 +11,15 @@ description: 快速上手Swiflow，开始通过对话创建功能
 
 Swiflow提供多个平台的应用，选择适合你的版本：
 
-- **iOS版本**：从App Store下载
-- **Android版本**：从Google Play下载
-- **网页版**：访问[app.swiflow.com](https://app.swiflow.com)
+- **macOS 版本**：从App Store下载
+- **Windows 版本**：从Google Play下载
+- **Docker 版**：暂无
 
-## 创建账户
+## 设置模型
 
-首次使用Swiflow时，你需要创建一个账户：
+首次使用Swiflow时，你需要为Swiflow设置供应商模型：
 
-1. 打开Swiflow应用
-2. 点击"注册"按钮
-3. 输入你的电子邮件地址和密码
-4. 点击"创建账户"
-
-你也可以使用Google、Apple或微信账号直接登录。
+![set-model](screenshot-set-model.png)
 
 ## 开始对话
 

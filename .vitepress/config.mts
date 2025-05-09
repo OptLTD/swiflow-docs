@@ -23,7 +23,7 @@ export default defineConfig({
           text: "入门指南",
           collapsed: false,
           items: [
-            { text: "介绍", link: "/docs/" },
+            { text: "功能介绍", link: "/docs/" },
             { text: "快速开始", link: "/docs/getting-started" },
             { text: "基本概念", link: "/docs/concepts" },
           ],
@@ -34,7 +34,7 @@ export default defineConfig({
           items: [
             { text: "创建功能", link: "/docs/creating-features" },
             { text: "管理功能", link: "/docs/managing-features" },
-            { text: "自定义设置", link: "/docs/customization" },
+            // { text: "自定义设置", link: "/docs/customization" },
           ],
         },
         {
@@ -48,7 +48,7 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: "github", link: `https://github.com/${GIT_REPO_OWNER}/${GIT_REPO_NAME}"` }],
+    socialLinks: [{ icon: "github", link: `https://github.com/${GIT_REPO_OWNER}/${GIT_REPO_NAME}` }],
     footer: {
       message: "© 2024 Swiflow. 保留所有权利。",
       copyright: "隐私政策 | 使用条款 | 联系我们",
