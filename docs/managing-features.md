@@ -142,6 +142,3 @@ Swiflow提供功能使用统计，帮助你了解自己的使用习惯：
 - 学习如何[自定义Swiflow](/docs/customization)以更好地满足你的需求
 - 查看[最佳实践](/docs/best-practices)获取更多使用技巧
 - 如果遇到问题，请参考[故障排除](/docs/troubleshooting)页面
-\`\`\`
-
-创建自定义设置页面：

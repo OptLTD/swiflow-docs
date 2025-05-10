@@ -111,6 +111,4 @@ description: 学习如何通过对话在Swiflow中创建各种功能
 - 学习如何[管理功能](/docs/managing-features)
 - 了解如何[自定义设置](/docs/customization)
 - 查看[最佳实践](/docs/best-practices)，获取更多使用技巧
-\`\`\`
 
-创建管理功能页面：
