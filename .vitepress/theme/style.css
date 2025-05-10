@@ -396,7 +396,10 @@
 
 @media (min-width: 640px) {
   .download-buttons {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+  }
+  .feature-container > .download-buttons {
+    flex-direction: row;
   }
 }

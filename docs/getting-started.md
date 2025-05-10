@@ -11,15 +11,13 @@ description: 快速上手Swiflow，开始通过对话创建功能
 
 Swiflow提供多个平台的应用，选择适合你的版本：
 
-- **macOS 版本**：从App Store下载
-- **Windows 版本**：从Google Play下载
-- **Docker 版**：暂无
+<DownloadLinks />
 
 ## 设置模型
 
 首次使用Swiflow时，你需要为Swiflow设置供应商模型：
 
-![set-model](screenshot-set-model.png)
+![set-model](/screenshot-set-model.png)
 
 ## 开始对话
 
@@ -60,6 +58,3 @@ Swiflow提供多个平台的应用，选择适合你的版本：
 - 探索[自定义设置](/docs/customization)，使Swiflow更符合你的需求
 
 如果你在使用过程中遇到任何问题，请查看[故障排除](/docs/troubleshooting)页面或联系我们的支持团队。
-\`\`\`
-
-创建基本概念页面：

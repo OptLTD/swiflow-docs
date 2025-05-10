@@ -1,16 +1,33 @@
 ---
 title: Swiflow 文档
-description: 了解如何使用Swiflow通过对话创建任务
+description: 了解如何使用 Swiflow
 ---
 
 # Swiflow 介绍
 
-欢迎来到Swiflow官方文档！本文档将帮助你了解如何使用Swiflow通过简单对话创建和管理‘任务’。
+欢迎来到 Swiflow 官方文档！本文档将帮助你了解如何使用 Swiflow。
 
-## 什么是Swiflow？
+## Swiflow 是什么？
 
-Swiflow是一个创新的应用，允许用户通过自然对话表达需求，然后自动生成对应的‘任务’。
-通过‘任务’来解决工作生活中那些繁琐零碎的事情，从而提高生活的幸福感。
+Swiflow 是一个 Local AI 助手，用户通过自然对话表达需求，Swiflow Agent 自动构建工具、使用工具来完成任务。
+
+## Swiflow 的由来？
+
+AI 的创造能力日新月异，尤其是在编程方面的能力更是有目共睹，很多繁琐的日常任务完全可以使用 RPA、Python、Shell 脚本等工具自动完成，但对于不会编程的人来说选择编程语言、配置开发环境就已经将大部分人拒之门外了。
+
+那么，何不让 AI 直接操作电脑(compuser use)来帮我们工作，用户描述需求AI编写代码，一次沟通一直轻松!
+
+## Swiflow 和其他 Agent 的区别
+
+1. 和 Cursor、Copilot、Windsurf等AI IDE的区别？
+    - **AI IDE**：为专业程序员设计的产品，需要用户有Dev、Debug的能力
+    - **Swiflow**：为普通人设计产品，无需用户有编程相关知识
+2. 和 V0、Lovable、Bolt 等 App Builder 的区别？
+    - **App Builder**：多数是 Web App 以展示型功能见长
+    - **Swiflow**：以 Python 脚本为主，更擅长处理本地文件和数据
+3. 和 Manus、Coze Space 等 AI Agent的区别？
+    - **AI Agent**：能力更全面、更通用，解决的是更通用的问题
+    - **Swiflow**：更 Privacy 更私人订制，更专注解决日常工作的问题
 
 ## 为什么选择Swiflow？
 
