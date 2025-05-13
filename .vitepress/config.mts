@@ -25,25 +25,40 @@ export default defineConfig({
           items: [
             { text: "功能介绍", link: "/docs/" },
             { text: "快速开始", link: "/docs/getting-started" },
-            { text: "基本概念", link: "/docs/concepts" },
+            {
+              text: "个性化设置",
+              collapsed: true,
+              items: [
+                { text: "设置 Bot", link: "/docs/customization/setup-bot" },
+                { text: "设置 Tool", link: "/docs/customization/setup-tool" },
+              ],
+            },
           ],
         },
         {
-          text: "使用指南",
+          text: "快速上手",
           collapsed: false,
           items: [
-            { text: "创建功能", link: "/docs/creating-features" },
-            { text: "管理功能", link: "/docs/managing-features" },
-            // { text: "自定义设置", link: "/docs/customization" },
+            { text: "作为 PC 助理", link: "/docs/bot-usage/pc-assistant" },
+            { text: "作为数据分析师", link: "/docs/bot-usage/data-analyst" },
+            { text: "作为开发工程师", link: "/docs/bot-usage/dev-engineer" },
           ],
         },
         {
-          text: "高级主题",
+          text: "优化 Bot",
           collapsed: false,
           items: [
-            { text: "最佳实践", link: "/docs/best-practices" },
-            { text: "常见问题", link: "/docs/faq" },
-            { text: "故障排除", link: "/docs/troubleshooting" },
+            { text: "提示词优化", link: "/docs/bot-optimize/optimize-prompt" },
+            { text: "最佳实践", link: "/docs/bot-optimize/best-practices" },
+            { text: "获取 Bot", link: "/docs/bot-optimize/get-more-bots" },
+          ],
+        },
+        {
+          text: "其他",
+          collapsed: false,
+          items: [
+            { text: "常见问题", link: "/docs/learn-more/questions-answers" },
+            { text: "故障排除", link: "/docs/learn-more/trouble-shooting" },
           ],
         },
       ],
